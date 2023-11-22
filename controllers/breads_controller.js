@@ -7,7 +7,8 @@ breads.get('/', (req, res) => {
   res.render('index',
 
     {
-      breads: Bread
+      breads: Bread,
+      title: 'BreadCRUD'
     }
   )
   // res.send(Bread)
